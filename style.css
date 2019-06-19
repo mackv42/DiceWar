@@ -2,6 +2,11 @@ body{
 	background-color: black;
 }
 
+#header{
+	color: white;
+	text-align: center;
+}
+
 .die{
 	width: 100px;
 	height: 100px;
@@ -14,10 +19,22 @@ body{
 	border-style: solid;
 	border-color: black;
 	border-width: 2px;
+
+	margin-right: 20px;
+}
+
+.dice{
+	
 }
 
 #p1{
 	background-color: lightblue;
+}
+
+.Wins{
+	background-color: white;
+	width: 100%;
+	height: 40px;
 }
 
 #p2{

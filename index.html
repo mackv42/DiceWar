@@ -5,12 +5,26 @@
 </head>
 
 <body>
-	<div id='p1'><input type='submit' id='p1Roll' value='P1 Roll'><br>
-		<p>Score: <span id='p1Score'></span></p>
+	<div id='header'>
+		<h1>The WarDice Game!</h1>
 	</div>
+
+	<div id='p1'>
+		<input type='submit' id='p1Roll' value='P1 Roll'>
+		<br>
+		<div style='margin: 0 auto; display: inline-block; float left;'>
+		<p>Score: <span id='p1Score'></span></p></div>
+		<div class="dice"></div>
+		<div>Wins: <span class="Wins"></span></div>
+	</div>
+	
 	<div id='p2'><input type='submit' id='p2Roll' value='P2 Roll'><br>
 		<p>Score: <span id='p2Score'></span></p>
+		<div class="dice"></div>
+		<div>Wins: <span class="Wins"></span></div>
 	</div>
+
+	<div id='winner'></div>
 </body>
 <script type='text/javascript' src='script.js'></script>
 </html>
